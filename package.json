@@ -1,0 +1,15 @@
+{
+  "name": "topic-modeling-results",
+  "version": "1.0.0",
+  "description": "display results for topic modeling algorithms in a readable manner",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack ./src/index.js ./dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "raw-loader": "^0.5.1",
+    "webpack": "^3.5.5"
+  }
+}
