@@ -4,7 +4,7 @@
   "description": "display results for topic modeling algorithms in a readable manner",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server",
+    "dev": "webpack-dev-server --open",
     "build": "webpack"
   },
   "author": "",
