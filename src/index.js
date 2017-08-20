@@ -1,6 +1,6 @@
 import txt from './TheJungleBookMetaData.txt';
 // just so that it copies this file to dist
-import ___ from './index.html';
+require('./index.html');
 
 // main
 function main(){
