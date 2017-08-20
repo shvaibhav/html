@@ -4,12 +4,17 @@
   "description": "display results for topic modeling algorithms in a readable manner",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack"
+    "dev": "webpack-dev-server --hot --inline",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "raw-loader": "^0.5.1",
     "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "file-loader": "^0.11.2",
+    "webpack-dev-server": "^2.7.1"
   }
 }

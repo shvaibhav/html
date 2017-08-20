@@ -1,6 +1,6 @@
 import txt from './TheJungleBookMetaData.txt';
-// console.log(txt);
-console.log('hello');
+// just so that it copies this file to dist
+import ___ from './index.html';
 
 // main
 function main(){
@@ -8,6 +8,7 @@ function main(){
         $('.text-container').text(txt);
         console.log(txt);
     });
+    console.log('hello world');
 }
 
 // run main()
